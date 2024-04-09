@@ -1,0 +1,139 @@
+body{
+    position: relative;
+    margin: 0;
+    width: 1280px;
+    height: 720px;
+    background-color: #FAFAF9;
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 144px); /* Adjusted width to account for left and right margins */
+    height: calc(100% - 162px);
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 162px;
+    font-family: "Sora", sans-serif;
+}
+.top-star{
+    margin: 10px;
+    font-size: 18px;
+}
+.star-with-dot{
+    display: flex;
+    color: #4CA154;
+    background-color: #F5C044;
+    width: 47px;
+    height: 44px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.Desc{
+    display: flex;
+    flex-direction: column;
+}
+.Cards{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: #18181B;
+}
+.Body-Description{
+    color: #52525A;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 32px;
+    max-width: 550px;
+    line-height: 1.6;
+}
+.check-1{
+    margin: 0;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px; 
+    align-items: center;
+    max-height: 30px;  
+}
+.check-2{
+    margin: 0;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    align-items: center;
+    max-height: 30px; 
+}
+.check-3{
+    margin: 0;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    align-items: center;
+    max-height: 30px; 
+}
+.check-ring{
+    margin: 0;
+    margin-right: 8px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 8px;
+    width: 354px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 28px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+img{
+    width: 89px;
+    height: 30px;
+    margin: 0;
+    margin-right: 20px;
+}
+.stars{
+    margin: 0;
+    margin-right: 4px;
+}
+h4{
+    margin: 0;
+    margin-left: 40px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #18181B;
+}
+.card-description{
+    margin: 0;
+    margin-bottom: 28px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 2;
+    font-size: 14px;
+    color: #52525A;
+}
+.Meta{
+    position: absolute;
+    bottom: 140px;
+    left: 580px;
+}
+.Google{
+    position: absolute;
+    right: 71px;
+}
